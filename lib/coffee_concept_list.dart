@@ -122,7 +122,7 @@ class _CoffeeConceptListState extends State<CoffeeConceptList> {
             left: 0,
             right: 0,
             top: 0,
-            height: 100,
+            height: 110,
             child: Column(
               children: [
                 Expanded(
@@ -152,9 +152,6 @@ class _CoffeeConceptListState extends State<CoffeeConceptList> {
                       );
                     },
                   ),
-                ),
-                const SizedBox(
-                  height: 15,
                 ),
                 AnimatedSwitcher(
                   duration: _duration,
