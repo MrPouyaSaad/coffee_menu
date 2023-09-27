@@ -1,5 +1,4 @@
 import 'package:coffee_menu/coffee_concept_home.dart';
-import 'package:coffee_menu/coffee_concept_list.dart';
 import 'package:flutter/material.dart';
 
 class MainCoffeeConceptApp extends StatelessWidget {
@@ -9,7 +8,7 @@ class MainCoffeeConceptApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return Theme(
       data: ThemeData.light(),
-      child: CoffeeConcept(),
+      child: const CoffeeConcept(),
     );
   }
 }
