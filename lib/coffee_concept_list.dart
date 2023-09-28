@@ -54,8 +54,9 @@ class _CoffeeConceptListState extends State<CoffeeConceptList> {
   Widget build(BuildContext context) {
     final size = MediaQuery.of(context).size;
     return Scaffold(
+      backgroundColor: Colors.white,
       appBar: AppBar(
-        backgroundColor: Colors.transparent,
+        backgroundColor: Colors.white,
         elevation: 0.0,
       ),
       body: Stack(
